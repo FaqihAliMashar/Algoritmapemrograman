@@ -21,7 +21,7 @@ menghitung 3C(a, c):
   return result
 
 
-mengehitung 4D(a, b, c, d) :
+menghitung 4D(a, b, c, d) :
   result=(((a+b) *2) +((b*c) *2))/(a*b) 
   return result
 
