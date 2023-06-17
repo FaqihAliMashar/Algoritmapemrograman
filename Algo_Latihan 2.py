@@ -3,11 +3,11 @@ a=10
 b=20
 c=50
 
-menghitung 1A(a , b, c) :
+def 1A(a , b, c) :
   result=((a+b)*(b*c))/(a+b+c) 
   return result
 
-menghitung 2B(a, b, c) :
+def 2B(a, b, c) :
   p=a
   l=b
   t=c
@@ -15,13 +15,13 @@ menghitung 2B(a, b, c) :
   return result
 
 
-menghitung 3C(a, c):
+def 3C(a, c):
   t=c
   result=0.5*a*c
   return result
 
 
-menghitung 4D(a, b, c, d) :
+def 4D(a, b, c, d) :
   result=(((a+b) *2) +((b*c) *2))/(a*b) 
   return result
 
