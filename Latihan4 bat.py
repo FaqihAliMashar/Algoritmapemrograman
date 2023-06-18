@@ -14,10 +14,10 @@ j_minyak= 15000*minyak
 j_cabai = 5000*cabai
 j_beras = 9000*beras
 
-#belanane
+#belanja
 belanja = (j_megono+j_telor+j_ayam+j_minyak+j_cabai+j_beras)
 
-#diskontol
+#diskon
 if belanja > 200000 :
   diskon = belanja*0.2
 else:
@@ -26,7 +26,7 @@ else:
 #total harga
 harga= belanja-diskon
 
-#tamlilane
+#tampilane
 print ("------------------------------------------")
 print ("          Toko LAFA Berkah          ")
 print ("------------------------------------------")
